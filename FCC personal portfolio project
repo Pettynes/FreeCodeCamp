@@ -1,0 +1,206 @@
+
+<body class="background">
+
+  <nav class="navbar navbar-default navbar-inverse">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="#top">
+          <img class="brand-image" alt="Brand" src="https://im1.shutterfly.com/media/47a7df39b3127cceee707a54fc0100000030O01AcMnDlw1bMge3nwA/cC/f%3D0/ls%3D00206058982820170118184914865.JPG/ps%3D50/r%3D0/rx%3D550/ry%3D400/"></a>
+      </div>      <!-- .navbar-header-->
+      
+ <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse"  data-toggle="collapse" data-target=".navbar-collapse.in" role="navigation" id="navbar">
+        <ul class="nav nav-pills navbar-right">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>      <!-- .navbar-collapse-->
+    </div>    <!-- .container.fluid-->
+  </nav>
+
+  <!-- About part of the page -->
+
+  <div class="container background-about container-boxes" id="about">
+    <div class="row">
+      <div class="col-sm-7">
+        <h4 class="text-center"> 
+          <br>Hi! My name is Michael Petty and I'm completely new to coding. I'm working through the Freecodecamp challenges.  I hope to create many wonderful projects in the future! 
+        </h4>
+      </div>
+      <div class="col-sm-5"> <img id="about-pic-me"  src="https://im1.shutterfly.com/media/47a7df01b3127cceee7d2ea3803700000060O01AcMnDlw1bMge3nwA/cC/f%3D0/ls%3D00206058982820170120173235599.JPG/ps%3D50/r%3D0/rx%3D550/ry%3D400/" class=
+"img-responsive center-block" alt="Picture of Michael Petty">
+      </div>
+    </div>    <!-- .row -->
+  </div>  <!-- .container -->
+
+
+  <!-- Portfolio part of the page -->
+
+  <div class="container portfolio-container text-center container-boxes" id="portfolio">
+    <h2>PORTFOLIO</h2>
+    <hr>
+    <div class="row">
+      <div class="col-sm-6">
+        <a href="http://crunchyroll.com" target="_blank">
+          <img id="portfolio-img" class="img-responsive" alt="CrunchyRoll" src="https://lh3.googleusercontent.com/Yhxbmtl6AmPK2KsDjpWXHfTDcYHYrcav_YukAbmsSzT1VxnsHS4pa_VEf7kQjagYyScd=h900"></a>
+        <p>CrunchyRoll is a great site for anime</p>
+      </div>
+
+      <div class="col-sm-6">
+        <a href="http://slickdeals.net" target="_blank">
+          <img id="portfolio-img" class="img-responsive" alt="Slickdeals" src="https://s3.amazonaws.com/signinatimages/slickdeals.jpg"></a>
+        <p>Slickdeals is awesome for finding cheap deals on anything</p>
+      </div>
+    </div>    <!-- .row -->
+
+    <div class="row">
+      <div class="col-sm-6">
+        <a href="http://www.reddit.com" target="_blank"><img id="portfolio-img" class="img-responsive" alt="Reddit" src="http://orig11.deviantart.net/e583/f/2012/069/6/f/reddit_news_website_template_redesign_design_by_columaes-d4sa3id.png"></a>
+        <p>Reddit is an old school forum site full of interesting topics</p>
+      </div>
+      <div class="col-sm-6">
+        <a href="http://www.amazon.com" target="_blank"><img id="portfolio-img" class="img-responsive" alt="Amazon" src="http://zhangyingying.files.wordpress.com/2011/03/amazon-us.png"></a>
+        <p>Amazon is the place to buy everything for cheap</p>
+      </div>
+
+    </div>    <!-- .row -->
+  </div>  <!-- .container -->
+
+  <!-- Contact me part of page -->
+
+  <div class="container contact-container container-boxes" id="contact">
+    <h2 class="text-center">CONTACT ME</h2>
+    <hr>
+    <div class="row">
+      <div class="col-sm-6">
+        <form>
+        <!-- <form action="mailto:mpetty20000@yahoo.com" method="post" enctype="text/plain">
+           action sends to data page or email -->
+          <div class="form-group">
+          <!--<fieldset> fieldset element group related data in a form -->
+            <!--<legend>Contact information:</legend> legend element defines a caption for the fieldset element -->
+            <input class="form-control input-lg" type="text" placeholder="Name" name="name">
+            <input class="form-control input-lg" type="text" placeholder="Email Address" name="email address">
+            <input class="form-control input-lg" type="text" placeholder="Phone Number" name="phone number">
+            <textarea class="form-control input-lg" name="message" placeholder="Message" rows="8"></textarea>
+            </div> <!-- .form-group -->
+          <button type="submit" class="btn btn-default">Send</button>
+        </form>
+      </div>
+      <div class="col-sm-6 text-center">
+        <h4 class="text-center"><br>Please feel free to contact me for any reason at all! I'll happily get back to you as soon as possible!... Well whenver I reach a point in the camp where I can make these forms functional anyway.</h4>
+      </div>
+    </div>    <!-- .row -->
+  </div>  <!-- .container -->
+  <br>
+
+<!-- about me & clickable social media buttons -->
+  <div class="container container-boxes about-this-page">
+    <div class="row">
+      <div class="col-sm-1">
+      </div>
+      <div class="col-sm-5 text-center about-this-page">
+        <h4>ABOUT THIS PAGE</h4>
+        <p>Made by <a href="https://freecodecamp.com/Pettynes" id="Michael-Petty" target="_blank">Michael Petty</a></p>
+      </div>  
+      <div class="col-sm-5 text-center about-this-page">
+        <h4>ME ON THE WEB</h4>
+       <!-- <div class="row">
+          <div class="col-sm-12 text-center"> -->
+            <a href="https://github.com/Pettynes" target="_blank"> <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbw3TsxdI8fs0GAS1ikNvs8aeA1Wfps9cOi5EyUxkpzv5iA6jpEg"></a>
+            <a href="https://www.linkedin.com/in/michael-petty-12411246" target="_blank"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQtTNb1oCIPyeM_92wb6xjeAje2uIA0YL7cHmsfrUSyrO7MC7aB"></a>
+         <!-- </div> -- col-sm-1 
+        </div> <!-- .row -->
+      </div> <!-- .col-sm-5 text-center -->
+      <div class="col-sm-1">
+      </div>
+    </div> <!-- .row -->  
+  </div> <!-- .container -->
+  
+  <footer class="footer">
+    <div class="container-fluid navbar-inverse text-center  container-boxes">
+      <span class="text-muted">All Rights Reserved if there were anything useful here</span>
+    </div>  
+  </footer>
+
+ <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+   <!-- <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+   <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> --> 
+
+</body>
+
+
+
+<-- CSS Edits -->
+
+.body{
+  font-family: 'Abril Fatface', cursive;
+}
+.brand-image{
+  width: 50px;
+  height: 50px;
+  margin-top: -15px;  
+}
+.background{
+  background-color: gray;
+  margin-top:0px;
+}
+.container-boxes{
+   margin-top: 20px;
+   margin-bottom: -19.4px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+  }
+  
+}
+.background-about{
+  background-color: #999;
+  color: white;
+  }
+
+
+#about-pic-me{
+  max-width: 290px;
+  max-height: 250px;
+  border-radius: 50%;
+  border-color:#DDD;
+  
+}
+
+.portfolio-container{
+  background-color: white;
+  color: grey;
+}  
+.contact-container{
+  background-color: white;
+  color: grey;  
+}
+
+.col-sm-5{
+  color: white;
+}
+
+#Michael-Petty{
+  color: blue;
+}
+
+.about-this-page{
+  
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
